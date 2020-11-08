@@ -18,7 +18,7 @@ Customization of these pages and the overall theme is completed in the WordPress
 
 For videos, troubleshooting and detailed usage documentation, view the Getting Started  Guide
 
-###Links
+### Links
 
 * [LayersWP](http://www.layerswp.com/download/layers/)
 * Clone here or [Download Master](https://github.com/Obox/layerswp/archive/master.zip)

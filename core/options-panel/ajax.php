@@ -258,7 +258,7 @@ if( !class_exists( 'Layers_Onboarding_Ajax' ) ) {
 
 						$header_color = $clean_option_value;
 						$accent_color = layers_adjust_brightness( $clean_option_value, -50, TRUE );
-						$footer_color = '#2b2b2b';
+						$footer_color = '#ffffff';
 
 						set_theme_mod( 'layers-header-background-color', $header_color );
 						set_theme_mod( 'layers-site-accent-color', $accent_color );

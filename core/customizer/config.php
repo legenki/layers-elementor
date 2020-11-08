@@ -904,7 +904,7 @@ class Layers_Customizer_Config {
 			'footer-copyright-text' => array(
 				'type'     => 'layers-text',
 				'label'    => __( 'Copyright Text' , 'layerswp' ),
-				'default' => ' Made at the tip of Africa. &copy;',
+				'default' => ' Designed by Andy Legenki. &copy;',
 				'sanitize_callback' => FALSE
 			),
 			'footer-styling' => array(

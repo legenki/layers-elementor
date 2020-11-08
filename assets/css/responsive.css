@@ -193,12 +193,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	.span-5,
 	.span-6,
 	.span-7{
-		width: calc(((100% / 12) * 6) - 20px);
+		width: calc(((100% / 12) * 8) - 20px);
 	}
 	.column-flush.span-5,
 	.column-flush.span-6,
 	.column-flush.span-7{
-		width: calc((100% / 12) * 6);
+		width: calc((100% / 12) * 8);
 	}
 
 	/*---------------------------*/
@@ -479,7 +479,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	/*- COLUMN WIDTHS -----------*/
 	.span-1{width: calc((100% / 12) - 20px);}
 	.span-2{width: calc(((100% / 12) * 2) - 20px);}
-	.span-3{width: calc(((100% / 12) * 3) - 20px);}
+	.span-3{width: calc(((100% / 12) * 2) - 20px);}
 	.span-5{width: calc(((100% / 12) * 5) - 20px);}
 	.span-7{width: calc(((100% / 12) * 7) - 20px);}
 	.span-8{width: calc(((100% / 12) * 8) - 20px);}
