@@ -38,10 +38,10 @@ if( !function_exists( 'layers_post_meta' ) ) {
 		foreach ( $display as $meta ) {
 			switch ( $meta ) {
 				case 'date' :
-					$meta_to_display[] = '<span class="meta-item meta-date"><i class="l-clock-o"></i> ' . get_the_time(  get_option( 'date_format' ) , $post_id ) . '</span>';
+					$meta_to_display[] = '<span class="meta-item meta-date"></i>' . get_the_time(  get_option( 'date_format' ) , $post_id ) . '</span>';
 					break;
 				case 'author' :
-					$meta_to_display[] = '<span class="meta-item meta-author"><i class="l-user"></i> ' . layers_get_the_author( $post_id ) . '</span>';
+					$meta_to_display[] = '<span class="meta-item meta-author"></i> ' . layers_get_the_author( $post_id ) . '</span>';
 					break;
 				case 'categories' :
 					$categories = array();
@@ -60,7 +60,7 @@ if( !function_exists( 'layers_post_meta' ) ) {
 						foreach ( $the_categories as $category ){
 							$categories[] = ' <a href="'.get_category_link( $category->term_id ).'" title="' . esc_attr( sprintf( __( "View all posts in %s", 'layers' ), $category->name ) ) . '">'.$category->name.'</a>';
 						}
-						$meta_to_display[] = '<span class="meta-item meta-category"><i class="l-folder-open-o"></i> ' . implode( __( ', ' , 'layerswp' ), $categories ) . '</span>';
+						$meta_to_display[] = '<span class="meta-item meta-category">' . implode( __( ', ' , 'layerswp' ), $categories ) . '</span>';
 					}
 					break;
 				case 'tags' :

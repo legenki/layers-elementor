@@ -98,7 +98,7 @@ body{
 	font-size: 1.5rem;
 	line-height: 1.5;
 	background-color: #fff;
-	color: rgba(0, 0, 0, 0.55);
+	color: #334D6E;
 	font-family: "Inter";
 	overflow: hidden;
 }
@@ -109,8 +109,8 @@ h3,
 h4,
 h5,
 h6{
-	color: rgba(0, 0, 0, 0.85);
-	font-weight: 400;
+	color: #334D6E;
+	font-weight: 600;
 }
 
 code,
@@ -121,7 +121,7 @@ kbd{
 	background-color: #eee;
 	color: #8292a8;
 	font-size: 85%;
-	font-weight: 700;
+	font-weight: 600;
 	font-family: "Courier New", Courier, monospace;
 }
 pre{
@@ -129,15 +129,15 @@ pre{
 	margin-bottom: 20px;
 	background-color: #f5f5f5;
 	border: 1px solid #ddd;
-	color: #323232;
+	color: #334D6E;
 	font-size: 85%;
-	font-weight: 700;
+	font-weight: 600;
 	font-family: "Courier New", Courier, monospace;
 	text-transform: initial;
 	overflow-y: scroll;
 }
 strong{
-	font-weight: 700;
+	font-weight: 600;
 }
 s,
 strike,
@@ -157,10 +157,10 @@ small{
 	font-size: 1.2rem;
 }
 a{
-	color: rgba(0, 0, 0, 0.75);
+	color: #3654E2;
 }
 a:hover{
-	color: rgba(0, 0, 0, 1);
+	color: #40BB03;
 }
 img{
 	max-width: 100%;
@@ -480,7 +480,7 @@ object{
 		margin-top: 3%;
 	}
 	.push-top-large{
-		margin-top: 6%;
+		margin-top: 60px;
 	}
 	.push-bottom{
 		margin-bottom: 2%;
@@ -492,7 +492,7 @@ object{
 		margin-bottom: 3%;
 	}
 	.push-bottom-large{
-		margin-bottom: 6%;
+		margin-bottom: 5%;
 	}
 
 	/*---------------------------*/
@@ -679,8 +679,7 @@ object{
 
 	.footer-site{
 		clear: both;
-		padding-top: 20px;
-		padding-bottom: 20px;
+		padding-top: 10px;
 		background-color: #f3f3f3;
 	}
 	.footer-site .row{
@@ -690,7 +689,7 @@ object{
 
 	.footer-site .section-nav-title{
 		margin-bottom: 15px;
-		color: #323232;
+		color: #334D6E;
 	}
 
 	.link-list li{margin: 0 0 6px;}
@@ -714,14 +713,14 @@ object{
 	.copyright .nav-horizontal a{
 		padding: 0;
 		font-size: 1.2rem;
-		font-weight: 700;
+		font-weight: 600;
 	}
 	.copyright .nav-horizontal a:hover{
 		background: none;
 	}
 	.grid + .copyright{
 		padding-top: 20px;
-		border-top: 1px solid #334d6e;
+		border-top: 1px solid #eee;
 	}
 	.invert .copyright .nav-horizontal a{
 		color: rgba(255, 255, 255, 0.75);
@@ -742,15 +741,16 @@ object{
 	/*---------------------------*/
 	/*- PAGE TITLES -------------*/
 	.title-container{
-		background-color: #f3f3f3;
+		background-color: #FFFFFF;
+		box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
 	}
 	.title-container .excerpt{
 		max-width: 745px;
 		margin-top: 1.5%;
 	}
 	.title-container .heading{
-		color: #323232;
-		font-size: 4.5rem;
+		color: #334D6E;
+		font-size: 36px;
 		line-height: 5rem;
 	}
 	.title-container .excerpt{
@@ -768,8 +768,8 @@ object{
 		margin-right: auto;
 	}
 	.title-container .title{
-		padding: 3% 20px;
-		max-width: 1040px;
+		padding: 2% 20px;
+		max-width: 1180px;
 		margin: auto;
 	}
 
@@ -791,7 +791,8 @@ object{
 	/*---------------------------*/
 	/*- SECTION TITLES ----------*/
 	.section-title{
-		margin-bottom: 30px;
+		text-align: center;
+		vertical-align: middle;
 	}
 	.section-title .excerpt{
 		max-width: 745px;
@@ -821,7 +822,8 @@ object{
 		/*-----------------------*/
 		/*- SECTION LARGE -------*/
 		.section-title.large .heading{
-			font-size: 4rem;
+			font-size: 36px;
+			font-weight: 600;
 			line-height: 1.25;
 		}
 		.section-title.large .excerpt{
@@ -842,7 +844,7 @@ object{
 		/*-----------------------*/
 		/*- SECTION SMALL -------*/
 		.section-title.small .heading{
-			font-size: 2.5rem;
+			font-size: 1.5rem;
 		}
 		.section-title.small .excerpt{
 			font-size: 1.5rem;
@@ -862,17 +864,17 @@ object{
 		/*-----------------------*/
 		/*- SECTION REGULAR -----*/
 		.section-title .heading{
-			color: rgba(0, 0, 0, 0.85);
+			color: #334D6E;
 			font-size: 3rem;
 		}
 		.section-title .heading a{
-			color: rgba(0, 0, 0, 0.85);
+			color: #3654E2;
 		}
 		.section-title .heading a:hover{
-			color: rgba(0, 0, 0, 1);
+			color: #52C41A;
 		}
 		.section-title .excerpt{
-			color: rgba(0, 0, 0, 0.55);
+			color: #334D6E;
 			font-size: 2rem;
 		}
 		.section-title .excerpt p:not(:first-child){
@@ -891,7 +893,7 @@ object{
 		/*- SECTION TINY --------*/
 		.section-title.tiny .heading{
 			font-size: 1.5rem;
-			font-weight: 700;
+			font-weight: 600;
 		}
 		.section-title.tiny .excerpt{
 			font-size: 1.3rem;
@@ -928,7 +930,7 @@ object{
 		margin: 0 0 10px 0;
 		color: #8292a8;
 		font-size: 1.2rem;
-		font-weight: 700;
+		font-weight: 600;
 		text-transform: uppercase;
 	}
 
@@ -1118,9 +1120,10 @@ object{
 	input[type="number"],
 	input[type="tel"],
 	input[type="date"]{
-		max-width: 500px;
+		max-width: 660px;
 		padding: 0 8px;
-		height: 36px;
+		height: 40px;
+		border-radius: 8px;
 		-webkit-appearance: none;
 		-moz-appearance: none;
 		font-size: 1.5rem;
@@ -1131,6 +1134,7 @@ object{
 	textarea{
 		padding: 10px 8px;
 		max-width: 660px;
+		border-radius: 8px;
 		-webkit-appearance: none;
 		-moz-appearance: none;
 	}
@@ -1146,15 +1150,16 @@ object{
 	input[type=submit],
 	button{
 		display: inline-block;
-		width: auto;
-		padding: 5px 10px;
+		margin-top: 20px;
+		width: 200px;
+		height: 40px;
 		vertical-align: middle;
-		background-color: #454545;
+		background-color: #344FCE;
 		border: none;
 		text-align: center;
 		color: #fff;
 		font-size: 1.5rem;
-		font-weight: 700;
+		font-weight: 600;
 		font-style: normal;
 		cursor: pointer;
 		-webkit-appearance: none;
@@ -1165,8 +1170,8 @@ object{
 	input[type=submit]:hover,
 	button:hover{
 		cursor: pointer;
-		background-color: #ccc;
-		color: #999;
+		background-color: #425EE3;
+		color: #FFFFFF;
 	}
 	input[type=button]:disabled,
 	input[type=submit]:disabled{
@@ -1208,10 +1213,9 @@ object{
 	/*- LABELLING AND GROUPING --*/
 	label{
 		clear: both;
-		display: block;
-		margin-bottom: 4px;
-		font-size: 1.5rem;
-		font-weight: 700;
+		margin-bottom: 5px;
+		font-size: 13px;
+		font-weight: 600;
 	}
 	fieldset{
 		margin-bottom: 10px;
@@ -1287,8 +1291,8 @@ object{
 	/*- CHECKBOX ----------------*/
 	input[type=checkbox]{
 		width: auto;
-		height: 14px;
-		width: 14px;
+		height: 18px;
+		width: 18px;
 		padding: 0;
 		margin: 0 5px 0 5px;
 		vertical-align: middle;
@@ -1422,10 +1426,10 @@ object{
 		vertical-align: middle;
 		cursor: pointer;
 		transition: all 0.2s ease-in-out;
-		font-weight: 700;
+		font-weight: 600;
 	}
 	.button:hover{
-		background-color: #323232;
+		background-color: #334D6E;
 		color: #fff;
 	}
 
@@ -1493,7 +1497,7 @@ object{
 		}
 		.btn-subtle:hover{
 			background-color: #eee;
-			color: #323232;
+			color: #334D6E;
 		}
 
 		/*-----------------------*/
@@ -1505,7 +1509,7 @@ object{
 		}
 		.btn-link:hover{
 			background: none;
-			color: #323232;
+			color: #334D6E;
 		}
 
 		/*-----------------------*/
@@ -1591,7 +1595,7 @@ object{
 			/*- BLANK BADGE ----*/
 			.badge.badge-blank{
 				background-color: #ddd;
-				color: #323232;
+				color: #334D6E;
 			}
 
 	/*---------------------------*/
@@ -1602,7 +1606,7 @@ object{
 		color: #fff;
 		white-space: nowrap;
 		font-size: 1.2rem;
-		font-weight: 700;
+		font-weight: 600;
 		font-style: normal;
 	}
 
@@ -1641,7 +1645,7 @@ object{
 			/*- BLANK LABEL -----*/
 			.label.label-blank{
 				background-color: #ddd;
-				color: #323232;
+				color: #334D6E;
 			}
 
 			/*-------------------*/
@@ -1686,7 +1690,7 @@ object{
 		border-bottom: 2px solid rgba(0, 0, 0, 0.08);
 		color: #454545;
 		font-size: 1.2rem;
-		font-weight: 700;
+		font-weight: 600;
 		text-transform: uppercase;
 	}
 	table td{
@@ -1707,7 +1711,7 @@ object{
 		background-color: #f3f3f3;
 		color: #8292a8;
 		font-size: 1.1rem;
-		font-weight: 700;
+		font-weight: 600;
 		text-transform: uppercase;
 	}
 
@@ -1730,7 +1734,8 @@ object{
 	/*---------------------------*/
 	/*- WELLS -------------------*/
 	.well{
-		background-color: rgba(0, 0, 0, 0.05);
+		background-color: rgba(242, 244, 246, 0.5);
+		border-radius: 8px;
 	}
 	.well-block{
 		background-color: #fff;
@@ -1787,14 +1792,14 @@ object{
 	}
 	.sitename{
 		font-size: 1.8rem;
-		font-weight: 700;
+		font-weight: 600;
 	}
 	.site-logo-link + .site-description .sitename{
 		font-size: 1.6rem;
 	}
 	.tagline{
 		font-size: 1.2rem;
-		font-weight: 700;
+		font-weight: 600;
 	}
 	.site-logo-link,
 	.logo .custom-logo-link,
@@ -1842,7 +1847,7 @@ object{
 		font-size: 1.2rem;
 	}
 	.nav a{
-		color: #323232;
+		color: #334D6E;
 		transition: color 0.2s ease-in-out, background 0.2s ease-in-out, border-color 0.2s ease-in-out;
 	}
 	.nav a:hover{
@@ -1868,7 +1873,7 @@ object{
 		display: block;
 		color: #334d6e;
 		text-align: center;
-		font-weight: 700;
+		font-weight: 600;
 	}
 	.nav-horizontal li a:hover{
 		color: #8292a8;
@@ -1905,11 +1910,11 @@ object{
 	.nav-vertical a{
 		display: block;
 		padding: 5px 0;
-		font-weight: 700;
+		font-weight: 600;
 	}
 	.nav-vertical a:hover{
 		background-color: #eee;
-		color: #323232;
+		color: #334D6E;
 	}
 
 	/*---------------------------*/
@@ -1946,7 +1951,7 @@ object{
 		padding: 6px 15px;
 		border: 1px solid transparent;
 		border-bottom: none;
-		font-weight: 700;
+		font-weight: 600;
 	}
 	.nav-tabs a:hover{
 		background: rgba(0, 0, 0, 0.1);
@@ -1968,7 +1973,7 @@ object{
 	.nav-pills a{
 		border: 2px solid #ddd;
 		color: #8292a8;
-		font-weight: 700;
+		font-weight: 600;
 		padding: 2px 10px;
 		border-radius: 3px;
 		display: block;
@@ -1984,8 +1989,8 @@ object{
 		color: #fff;
 	}
 	.nav-pills span{
-		color: #323232;
-		font-weight: 700;
+		color: #334D6E;
+		font-weight: 600;
 	}
 
 	/*---------------------------*/
@@ -2167,20 +2172,19 @@ object{
 	/*- BREAD CRUMBS ------------*/
 	.bread-crumbs{
 		display: inline-block;
-		margin: 0 0 15px;
 		overflow: hidden;
-		color: rgba(0, 0, 0, 0.55);
-		font-size: 1.2rem;
+		color: #334D6E;
+		font-size: 13px;
 	}
 	.bread-crumbs li{
 		float: left;
 		margin-right: 10px;
 	}
 	.bread-crumbs a{
-		color: rgba(0, 0, 0, 0.75);
+		color: #3654E2;
 	}
 	.bread-crumbs a:hover{
-		color: rgba(0, 0, 0, 0.85);
+		color: #40BB03;
 		text-decoration: underline;
 	}
 	.title-small .bread-crumbs{
@@ -2200,7 +2204,7 @@ object{
 		border-right: 1px solid #eee;
 		overflow: hidden;
 		font-size: 1.3rem;
-		font-weight: 700;
+		font-weight: 600;
 	}
 	.pagination li:last-child{
 		border-right: none;
@@ -2219,7 +2223,7 @@ object{
 		color: #fff;
 	}
 	.pagination .current{
-		border-color: #323232;
+		border-color: #334D6E;
 	}
 	.pagination .current{
 		background-color: #454545;
@@ -2320,7 +2324,7 @@ object{
 		}
 		.media.small .heading{
 			font-size: 1.5rem;
-			font-weight: 700;
+			font-weight: 600;
 		}
 		.media.small .excerpt{
 			font-size: 1.3rem;
@@ -2440,7 +2444,7 @@ object{
 		font-size: 1.2rem;
 	}
 	.thumbnail-body .excerpt{
-		color: rgba(0, 0, 0, 0.55);
+		color: #334D6E;
 	}
 	.thumbnail-body p{
 		margin: 10px 0 0;
@@ -2528,27 +2532,27 @@ object{
 	.copy h1{
 		margin-bottom: 26px;
 		font-size: 3.2rem;
-		font-weight: 700;
+		font-weight: 600;
 	}
 	.copy h2{
 		margin-bottom: 26px;
 		font-size: 2.2rem;
-		font-weight: 700;
+		font-weight: 600;
 	}
 	.copy h3{
 		margin-bottom: 26px;
 		font-size: 1.8rem;
-		font-weight: 700;
+		font-weight: 600;
 	}
 	.copy h4{
 		margin-bottom: 26px;
 		font-size: 1.5rem;
-		font-weight: 700;
+		font-weight: 600;
 	}
 	.copy h5{
 		margin-bottom: 26px;
 		font-size: 1.3rem;
-		font-weight: 700;
+		font-weight: 600;
 	}
 	.copy h6{
 		margin-bottom: 26px;
@@ -2558,7 +2562,7 @@ object{
 		padding-left: 26px;
 		margin-bottom: 20px;
 		font-size: 2.0rem;
-		font-weight: 700;
+		font-weight: 600;
 	}
 	.copy a.button{
 		border-bottom: none;
@@ -2687,7 +2691,7 @@ object{
 	.invert .input-prepend .add-on,
 	.invert .input-append .add-on{
 		border-color: transparent;
-		background: #323232;
+		background: #334D6E;
 		color: #fff;
 	}
 
@@ -2764,7 +2768,7 @@ object{
 	/*---------------------------*/
 	/*- INVERT BLOCK ------------*/
 	.invert-block{
-		background: #323232;
+		background: #334D6E;
 		overflow: hidden;
 		color: #ccc;
 	}
@@ -2788,7 +2792,7 @@ object{
 		color: #000;
 	}
 	.header-site.invert .sub-menu li a:hover{
-		background-color: #323232;
+		background-color: #334D6E;
 		color: #fff;
 	}
 	.invert .responsive-nav .l-menu{

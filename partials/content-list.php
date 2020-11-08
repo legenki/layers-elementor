@@ -10,6 +10,11 @@ global $post, $layers_post_meta_to_display; ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class( 'push-bottom-large' ); ?>>
 	<?php do_action('layers_before_list_post_title'); ?>
 	<header class="section-title large">
+        <?php do_action('layers_before_list_post_meta'); ?>
+        <?php /**
+         * Display the Post Meta
+         */
+        layers_post_meta( get_the_ID(), NULL, 'footer', 'meta-info' ); ?>
 		<?php do_action('layers_before_list_title'); ?>
 		<h1 class="heading"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 		<?php do_action('layers_after_list_title'); ?>
@@ -27,11 +32,6 @@ global $post, $layers_post_meta_to_display; ?>
 		<?php do_action('layers_after_list_post_content'); ?>
 	<?php } ?>
 
-	<?php do_action('layers_before_list_post_meta'); ?>
-		<?php /**
-		* Display the Post Meta
-		*/
-		layers_post_meta( get_the_ID(), NULL, 'footer', 'meta-info push-bottom' ); ?>
 	<?php do_action('layers_after_list_post_meta'); ?>
 
 	<?php do_action('layers_before_list_read_more'); ?>

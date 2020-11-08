@@ -284,7 +284,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	}
 	.avatar .avatar-body .avatar-name{
 		display: block;
-		font-weight: 700;
+		font-weight: 600;
 	}
 	.avatar.middled{
 		margin-left: auto;
@@ -304,6 +304,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	.story{
 		font-size: 1.6rem;
 		word-wrap: break-word;
+		padding-top: 60px;
 	}
 	.story p{
 		margin-bottom: 20px;
@@ -358,27 +359,27 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	.story h1{
 		margin-bottom: 26px;
 		font-size: 3.2rem;
-		font-weight: 700;
+		font-weight: 600;
 	}
 	.story h2{
 		margin-bottom: 26px;
 		font-size: 2.2rem;
-		font-weight: 700;
+		font-weight: 600;
 	}
 	.story h3{
 		margin-bottom: 26px;
 		font-size: 2.0rem;
-		font-weight: 700;
+		font-weight: 600;
 	}
 	.story h4{
 		margin-bottom: 26px;
 		font-size: 1.8rem;
-		font-weight: 700;
+		font-weight: 600;
 	}
 	.story h5{
 		margin-bottom: 26px;
 		font-size: 1.4rem;
-		font-weight: 700;
+		font-weight: 600;
 	}
 	.story h6{
 		margin-bottom: 26px;
@@ -488,8 +489,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 		margin-top: 10px;
 	}
 	.meta-item{
-		display: block;
-		margin-top: 2px;
+		display: inline-block;
+		font-size: 13px;
+		font-weight: 600;
+		margin: 0 20px 0 0;
+		padding: 6px 12px;
+		border-radius: 8px;
 	}
 	.meta-item:first-child{
 		margin-top: 0;
@@ -505,18 +510,21 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	.meta-info p{
 		margin: 0;
 	}
-
-		/*-----------------------*/
-		/*- SINGLE PAGE META ----*/
-		.single .meta-item{
-			display: inline-block;
-			margin-right: 15px;
-		}
-		.single .meta-info-vertical .meta-item{
-			display: block;
-			margin-right: 0;
-		}
-
+	.meta-item.meta-date {
+		color: #334D6E;
+		background-color: #f6f8f9;
+	}
+	.meta-item.meta-category {
+		color: #40BB03 !important;
+		background-color: #EDF8ED;
+	}
+	.meta-item.meta-category > a {
+		color: #36a400 !important;
+	}
+	.meta-item.meta-author {
+		color: #3654E2;
+		background-color: #F1F3FC;
+	}
 
 /*-------------------------------*/
 /*- COMMENTS --------------------*/
@@ -554,18 +562,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 		margin-top: 20px;
 	}
 	.comment-reply-title{
-		color: #323232;
-		font-size: 2.5rem;
+		color: #334D6E;
+		font-size: 2.2rem;
 	}
 	.logged-in-as{
 		margin-bottom: 20px;
-		font-size: 1.2rem;
-	}
-	.logged-in-as a{
-		color: rgba(0, 0, 0, 0.55);
-	}
-	.logged-in-as a:hover{
-		text-decoration: underline;
+		font-size: 13px;
 	}
 	p[class*='comment-form'] .required{
 		color: #900;
@@ -586,16 +588,16 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 		display: inline-block;
 		padding: 4px 14px;
 		vertical-align: middle;
-		background: #454545;
+		background: #344FCE;
 		border: none;
 		color: #fff;
 		text-align: center;
-		font-weight: 700;
+		font-weight: 600;
 		cursor: pointer;
 		transition: all 0.2s ease-in-out;
 	}
 	.form-submit input[type=submit]:hover{
-		background: #323232;
+		background: #425EE3;
 		color: #fff;
 	}
 
@@ -639,9 +641,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	}
 	.menu-main-menu-container li a{
 		display: inline-block;
-		color: #323232;
+		color: #334D6E;
 		text-align: center;
-		font-weight: 700;
+		font-weight: 600;
 	}
 	.menu-main-menu-container li a:hover{
 		color: #8F8F8F;
@@ -727,7 +729,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 		text-align: left;
 		text-transform: uppercase;
 		font-size: 1rem;
-		font-weight: 700;
+		font-weight: 600;
 	}
 	#wp-calendar th,
 	#wp-calendar td{

@@ -28,7 +28,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604792983260</updated>
-      <workItem from="1604792985573" duration="5453000" />
+      <workItem from="1604792985573" duration="14533000" />
     </task>
     <servers />
   </component>
@@ -36,13 +36,13 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="333" y="205" width="1046" height="658" key="DirDiffDialog" timestamp="1604803823602">
+    <state x="333" y="204" width="1046" height="658" key="DirDiffDialog" timestamp="1604869788115">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="333" y="205" width="1046" height="658" key="DirDiffDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1604803823602" />
-    <state x="520" y="289" width="604" height="490" key="find.popup" timestamp="1604794675166">
+    <state x="333" y="204" width="1046" height="658" key="DirDiffDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1604869788115" />
+    <state x="520" y="289" width="604" height="490" key="find.popup" timestamp="1604875999791">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="520" y="289" width="604" height="490" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1604794675166" />
+    <state x="520" y="289" width="604" height="490" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1604875999791" />
   </component>
 </project>
