@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9a524a8-0efc-4423-b592-2ef5a0ac480a" name="Default Changelist" comment="" />
+    <list default="true" id="c9a524a8-0efc-4423-b592-2ef5a0ac480a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/framework.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/framework.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +12,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jz3EUdo7FbJwSUhtK49vne4ETI" />
   <component name="ProjectViewState">
@@ -29,6 +35,8 @@
       <option name="presentableId" value="Default" />
       <updated>1604792983260</updated>
       <workItem from="1604792985573" duration="14533000" />
+      <workItem from="1604878970961" duration="77000" />
+      <workItem from="1604972920210" duration="1081000" />
     </task>
     <servers />
   </component>
@@ -36,10 +44,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="333" y="204" width="1046" height="658" key="DirDiffDialog" timestamp="1604869788115">
+    <state x="333" y="204" width="1046" height="658" key="DirDiffDialog" timestamp="1604879047641">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="333" y="204" width="1046" height="658" key="DirDiffDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1604869788115" />
+    <state x="333" y="204" width="1046" height="658" key="DirDiffDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1604879047641" />
     <state x="520" y="289" width="604" height="490" key="find.popup" timestamp="1604875999791">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
