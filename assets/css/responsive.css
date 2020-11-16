@@ -61,6 +61,17 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 		width: calc(((100% / 12) * 12));
 	}
 
+	.layers-content-main {
+		padding: 60px 10px;
+	}
+
+	article.translucent {
+		background-color: #ffffff;
+		padding: 25px;
+		box-shadow: 0px 16px 64px rgba(51, 77, 110, 0.1);
+		border-radius: 16px;
+	}
+
 	/*---------------------------*/
 	/*- MASONRY -----------------*/
 	.list-masonry .grid{
@@ -123,14 +134,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 		font-size: 2rem;
 	}
 
-/*-------------------------------*/
-/*- CONTENT ---------------------*/
-
-	/*---------------------------*/
-	/*- META INFO ---------------*/
-	.single .meta-item{
-		display: block;
-	}
 
 /*-------------------------------*/
 /*- COMPONENTS ------------------*/
@@ -400,6 +403,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	.pull-left,
 	.pull-right{
 		float: none;
+		display: none;
 	}
 
 	/*---------------------------*/

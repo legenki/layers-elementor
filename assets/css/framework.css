@@ -574,7 +574,7 @@ object{
 		position: relative;
 	}
 	.header-site .container{
-		padding: 10px;
+		padding: 10px 20px;
 	}
 
 	/*---------------------------*/
@@ -594,7 +594,7 @@ object{
 		display: block;
 		font-size: 24px;
 		line-height: 40px;
-		color: #454545;
+		color: #334D6E;
 	}
 
 	/*---------------------------*/
@@ -959,6 +959,7 @@ object{
 		text-align: right;
 		cursor: pointer;
 		z-index: 2;
+		display: none;
 	}
 	.close-canvas i{
 		margin-right: 4px;
@@ -972,8 +973,8 @@ object{
 	}
 
 	div[class*=' off-canvas-']{
-		background: #454545;
-		padding-top: 30px;
+		background: #F2F4F6;
+		padding-top: 100px;
 		position: fixed;
 		top: 0;
 		z-index: 1;
@@ -981,7 +982,8 @@ object{
 		-webkit-transform: scale(0.95);
 		transform: scale(0.95);
 		transition: all 0.3s ease-in-out 0s;
-		font-size: 1.4rem;
+		font-size: 18px;
+		box-shadow: inset 48px 0px 48px -48px rgba(51,77,110,0.15);
 	}
 	.admin-bar div[class*=' off-canvas-']{
 		padding-top: 66px;
@@ -1031,7 +1033,7 @@ object{
 		padding: 5px 0;
 	}
 	div[class*=' off-canvas-'] li a{
-		color: rgba(255, 255, 255, 0.8);
+		color: #334D6E;
 	}
 	div[class*=' off-canvas-'] .section-nav-title{
 		color: #888;
@@ -1069,7 +1071,7 @@ object{
 			z-index: 1;
 		}
 		.admin-bar div[class*=' off-canvas-'] .nav-mobile{
-			padding-top: 20px;
+			padding: 15px 15px 15px 30px;
 		}
 		div[class*=' off-canvas-'] .nav-vertical li{
 			padding: 0;
@@ -2781,7 +2783,7 @@ object{
 	/*- INVERTED MENUS ----------*/
 	.invert .nav-vertical li a:hover{
 		background: none;
-		color: #fff;
+		color: #344FCE;
 	}
 	.invert .sub-menu,
 	.invert .sub-menu li a{
