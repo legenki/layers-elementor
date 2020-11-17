@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c9a524a8-0efc-4423-b592-2ef5a0ac480a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/components.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/components.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/framework.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/framework.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/responsive.css" afterDir="false" />
     </list>
@@ -43,6 +44,9 @@
       <workItem from="1605305988090" duration="913000" />
       <workItem from="1605499377388" duration="1372000" />
       <workItem from="1605501518631" duration="74000" />
+      <workItem from="1605502123749" duration="134000" />
+      <workItem from="1605569161558" duration="358000" />
+      <workItem from="1605579736941" duration="1172000" />
     </task>
     <servers />
   </component>
@@ -50,10 +54,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="333" y="204" width="1046" height="658" key="DirDiffDialog" timestamp="1605501591880">
+    <state x="333" y="204" width="1046" height="658" key="DirDiffDialog" timestamp="1605585873061">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="333" y="204" width="1046" height="658" key="DirDiffDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1605501591880" />
+    <state x="333" y="204" width="1046" height="658" key="DirDiffDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1605585873061" />
     <state x="520" y="289" width="604" height="490" key="find.popup" timestamp="1604875999791">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>

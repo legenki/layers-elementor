@@ -87,6 +87,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	.header-right .responsive-nav{
 		margin-left: 0;
 	}
+	.section-title.large .heading {
+		font-size: 28px;
+		font-weight: 600;
+		line-height: 1.25;
+	}
 
 	/*---------------------------*/
 	/*- TABBED NAV --------------*/

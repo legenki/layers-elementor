@@ -357,6 +357,10 @@ object{
 		max-width: none;
 		padding: unset;
 	}
+	.elementor-button.elementor-size-md {
+		font-size: 15px !important;;
+		padding: 10px 10px !important;
+	}
 
 	.wrapper-site.container{
 		max-width: 1140px;
@@ -2843,7 +2847,7 @@ object{
 	/*---------------------------*/
 	/*- FOOTER INVERT -----------*/
 	.invert .copyright {
-		color: rgba(255,255,255,0.55);
+		color: #ffffff
 	}
 	.footer-site.invert .section-nav-title{
 		color: rgba(255,255,255,0.55);
