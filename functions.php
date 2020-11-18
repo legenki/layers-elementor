@@ -754,6 +754,6 @@ function theme_prefix_register_elementor_locations( $elementor_theme_manager ) {
 add_action( 'elementor/theme/register_locations', 'theme_prefix_register_elementor_locations' );
 
 function wpb_add_google_fonts() {
-    wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap', false );
+    wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap', false );
 }
 add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
