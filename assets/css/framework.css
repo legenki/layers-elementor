@@ -207,6 +207,10 @@ object{
 .excerpt{
 	word-wrap: break-word;
 }
+figcaption {
+	font-size: 11px;
+	text-align: center;
+}
 
 
 /*--------------------------------------------------------------*/

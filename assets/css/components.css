@@ -348,10 +348,13 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 		margin-left: 36px;
 	}
 
-	.story img{
+	.story img {
 		max-width: 100%;
 		height: auto;
+		border-radius: 16px;
+		border: 1px solid rgba(217,217,217,0.5);
 	}
+
 	.story img.align-center{
 		display: block;
 	}
