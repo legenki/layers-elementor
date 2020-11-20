@@ -47,7 +47,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	.span-9,
 	.span-10,
 	.span-11{
-		width: calc(((100% / 12) * 12) - 20px);
+		width: 100%;
 	}
 	.column-flush.span-3,
 	.column-flush.span-4,
@@ -58,18 +58,30 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	.column-flush.span-9,
 	.column-flush.span-10,
 	.column-flush.span-11{
-		width: calc(((100% / 12) * 12));
+		width: calc(((100% / 12) * 12) - 10px);
 	}
 
 	.layers-content-main {
-		padding: 60px 10px;
+		padding: 0;
 	}
 
 	article.translucent {
 		background-color: #ffffff;
 		padding: 25px;
 		box-shadow: 0px 16px 64px rgba(51, 77, 110, 0.1);
-		border-radius: 16px;
+		border-radius: 0;
+	}
+
+	.push-bottom-large {
+		margin-bottom: 1px;
+	}
+
+	.column {
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 0;
+		position: relative;
+		max-width: 100%;
 	}
 
 	/*---------------------------*/
